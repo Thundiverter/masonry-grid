@@ -1,5 +1,5 @@
 ![](img/preview.png)
 
-<h1 style="text-align: center;">Masonry-like grid</h1>
+# Masonry-like grid
 
-A Masonry-like grid made with HTML and CSS (without JavaScript).
+A Masonry-like (Pinterest-like) grid made with HTML and CSS (without JavaScript).
