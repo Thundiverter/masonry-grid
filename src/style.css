@@ -1,0 +1,82 @@
+/* {border: 1px solid black;}*/
+
+body {
+	font-family: Inter, sans-serif;
+	margin: 0;
+
+}
+
+.grid {
+	margin: 24px auto;
+	
+	column-width: 320px;
+	column-gap: 18px;
+	
+	max-width: 80%;
+}
+
+.grid > a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	margin-bottom: 16px;
+	
+	padding: 8px;
+	
+	border-radius: 6px;
+	cursor: pointer;
+	
+	break-inside: avoid;
+	
+	transition-duration: .1s;
+	
+}
+.grid > a:hover {
+	background-color: #F2F2F2;
+}
+.grid > a:active {
+	transform: translateY(1px) scale(0.995);
+}
+
+figure {
+	display: inline-block;
+	margin: 0;
+}
+
+figure img {
+	max-width: 100%;
+	border-radius: 6px;
+}
+
+figure figcaption {
+	margin: 8px 0px;
+	font-size: 90%;
+}
+
+.poster-1 h3, .poster-1 p {
+	margin: 8px;
+	color: white;
+}
+.poster-1 h3 { margin-top: 64px; }
+.poster-1 p { margin-bottom: 16px; font-size: 90%; }
+
+.poster-1 div {
+	border: 1px solid transparent;
+	border-radius: 6px;
+	background-image: url('https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297_960_720.jpg');
+	background-position: center;
+}
+
+/* Made by Thundiverter */
+#madebythundiverter {
+    width: 100%;
+    margin-top: 32px; padding: 12px 0px 12px 0px;
+    background-color: #1f4e79; color: #fff; font-size: 90%;
+    text-align: center;
+}
+#madebythundiverter a {
+    color: #fff; text-decoration: none;
+}
+#madebythundiverter a:hover {
+    text-decoration: underline;
+}
